@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://checkout.seerbitapi.com/api/v2/seerbit.js"></script>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Techorama</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">PAYMENT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="Type To Text">
+                <a href="#"><button class="btn">search</button></a>
+            </div>
+
+        </div>
+        <div class="content">
+            <h1>Web Design & <br><span>Development</span> <br>Course</h1>
+            <p class="par">This is a prebiult website for students who want to implement their skills <br>in the technology world, include more stuffs</p>
+        
+            <button class="cn"><a href="#">JOIN US</a></button>
+
+            <div class="form">
+                <h2>login here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password" name="" placeholder="Enter Password Here">
+                <button class="btn"><a href="#">Login</a></button>
+
+                <!-- <p class="link">Don't have an account<br>
+                <a href="#">Sign up </a> here</a></p>
+                <p class="liw">log in with</p> -->
+                <h3> Pay For Your Course Here</h3>
+                <form action="">
+                    <label for="amount"><h3>Amount</h3><input id="amount" type="text" required></label>
+                    <button id="btn" onclick="paywithSeerbit()">Submit</button>
+                </form>
+            </div>
+        </div>
+     </div>
+     
+     <script src="./script.js"></script>
+</body>
+</html>
